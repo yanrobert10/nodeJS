@@ -1,0 +1,15 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">EJS</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="/" class="nav-link">Home</a>
+            </li>
+            <li>
+                <a href="/sobre" class="nav-link">About</a>
+            </li>
+        </ul>
+    </nav>
+
+    <p>Página : <%= typeof pagina != "undefined" ? pagina : "Home"  %></p> <!--Quando não for atribuido nada no objeto pagina ele atribuira Home -->
+</header>
